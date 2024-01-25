@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eight"
+    android:orientation="vertical"
+    tools:context=".Page8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="540dp"
+        android:text="Cinderella smiled as she helped them to dress. She was sure the Fairy would let her go to the ball too. And she was right. Her godmother, pleased with her obedience, came in good time, and Cinderella, dressed in blue satin and pearls, went in the same style as before."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Page"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="goToPage9"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Page"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:onClick="goToPage7"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
