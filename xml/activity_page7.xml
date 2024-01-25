@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/seven"
+    android:orientation="vertical"
+    tools:context=".Page7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="100dp"
+        android:text="“You were so good and obedient last time, that I shall let you go out again,” said she to the young girl."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="And once more the rat, mice, grasshoppers, and pumpkin (which had gone back to their original shapes after the first ball) were turned into the grand carriage and attendants, and Cinderella, in rose-coloured satin and rubies, went to the royal ball."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Directly the Prince saw her, he asked her to dance, and would have no other partner, and as he led her past her two unkind sisters, she saw them look at her dress with envious eyes, and knew that they wished they were as beautiful, and as well-dressed as she was."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="But in the midst of her enjoyment, Cinderella remembered the Fairy’s command, and at half-past ten glided out of the room, and drove home again. Her sisters found her waiting to undress them in her usual rags, and kept her up to tell her how beautiful the unknown Princess was, and how well she was dressed."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Again the Prince was vexed at the sudden disappearance of the beautiful stranger, and once more he persuaded the King to give a grand State ball."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="“I wonder if Princess Beauty will be there!” said the sisters to Cinderella. “We must have new dresses, for she is so splendid. She makes every one look shabby.”"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Page"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:onClick="goToPage8"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Page"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:onClick="goToPage6"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
