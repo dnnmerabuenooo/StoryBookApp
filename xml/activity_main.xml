@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homepage"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The enchanting tale of a poor girl whose fairy godmother helps make a princess."
+        android:textSize="15dp"
+        android:layout_marginTop="170dp"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Reading"
+        android:layout_marginTop="380dp"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:onClick="goToPage1"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>
