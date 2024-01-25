@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/two"
+    android:orientation="vertical"
+    tools:context=".Page2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="She was a very sweet-tempered, good girl, however, and everybody (except her cruel sisters) loved her."
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="It happened, when Cinderella was about seventeen years old, that the King of that country gave a ball, to which all ladies of the land, and among the rest the young girl’s sisters, were invited. And they made her dress them for the ball, but never thought of allowing her to go there."
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:onClick="goToPage3"
+        android:text="Next Page"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back Page"
+        android:textSize="15dp"
+        android:onClick="goToPage1"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
