@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eleven"
+    android:orientation="vertical"
+    tools:context=".Page11">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="540dp"
+        android:text="All the great ladies who wished to be a Princess tried to put it on, but in vain. Cinderella’s sisters tried, but could not get it on, and then Cinderella asked if she might try. They laughed at her; but the Prince, hearing of her wish, sent for her. She went with her sisters in her poor dress, but very clean, and at once put on the slipper. Then she drew the fellow of it from her pocket, and slipped it on her other foot."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Page"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:onClick="goToPage12"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Page"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:onClick="goToPage10"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
