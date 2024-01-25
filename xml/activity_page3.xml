@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/three"
+    android:orientation="vertical"
+    tools:context=".Page3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Cinderella, would you not be glad to go to the ball?” her sisters said.
+“Ah!” said she, “you are only teasing me, for I can’t go there.”
+“You are right,” replied they, “it would make the people laugh to see Cinderella at a ball.”"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="When they were gone, Cinderella, whose heart was very sad, sat down and cried bitterly; but as she sat sorrowful, thinking of the unkindness of her sisters, a voice called to her from the garden, and she went out to see who was there. It was her godmother, a good old Fairy."
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Page"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:onClick="goToPage4"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Page"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:onClick="goToPage2"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
