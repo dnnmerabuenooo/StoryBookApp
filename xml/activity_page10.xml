@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ten"
+    android:orientation="vertical"
+    tools:context=".Page10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="120dp"
+        android:text="At once she darted out of the room, and ran through the palace as fast as she could go, but as she reached the hall, she lost one of her precious glass slippers! She did not stop to pick it up, but rushed to the door. Alas! the clock had struck Eleven. She found no coach, only a pumpkin, and the rat and mice ran quickly away when they saw her; while all her fine dress turned to rags, and she had to run home alone in the darkness of the night."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="The Prince was very much surprised when he missed Cinderella again, and leaving the ball, went in search of her. He asked all the attendants, but no one had seen her, and when enquiry was made of the porter, he said that no one had gone out of the palace except a poor ragged beggar-girl."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="However, the Prince’s search was rewarded by his finding the glass slipper, which he well knew belonged to the unknown Princess. He loved Cinderella so much that he now resolved to marry her; and as he felt sure that no one else could wear such a tiny shoe as hers was, he sent out a herald to proclaim that whichever lady in his kingdom could put on this glass slipper should be his wife."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Page"
+        android:textSize="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:onClick="goToPage11"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back Page"
+        android:textSize="15dp"
+        android:onClick="goToPage9"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
