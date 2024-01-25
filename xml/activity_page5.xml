@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/five"
+    android:orientation="vertical"
+    tools:context=".Page5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="540dp"
+        android:text="Cinderella was received at the King’s palace with great respect. The Lord Chamberlain bowed low to her, thinking she must be a very great lady by her dress and carriage, and he showed her at once into the ball-room."
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="She was so beautiful that everybody looked at her, and wondered who she was; and the Prince asked her to dance with him, and afterwards would dance with no one else."
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Page"
+        android:textSize="15dp"
+        android:onClick="goToPage6"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Page"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:onClick="goToPage4"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
