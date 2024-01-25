@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/four"
+    android:orientation="vertical"
+    tools:context=".Page4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Do not cry, Cinderella,” she said; “you also shall go to the ball, because you are a kind, good girl. Bring me a large pumpkin.”"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Cinderella obeyed, and the Fairy, touching it with her wand, turned it into a grand coach. Then she desired Cinderella to go to the trap, and bring her a rat. The girl obeyed, and a touch of the Fairy’s wand turned him into a very smart coachman. Two mice were turned into footmen; four grasshoppers into white horses. Next, the Fairy touched Cinderella’s rags, and they became rich satin robes, trimmed with point lace. Diamonds shone in her hair and on her neck and arms, and her kind godmother thought she had seldom seen so lovely a girl. Her old shoes became a charming pair of glass slippers, which shone like diamonds."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="“Now go to the ball, my love,” she said, “and enjoy yourself. But remember, you must leave the room before the clock strikes eleven. If you do not your dress will return to its original rags. I approve of pleasure, but not of dissipation, and I expect that you will show your gratitude by obeying me.”"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Cinderella kissed and thanked her godmother. Then she stepped into her coach and drove off, with her footmen behind, in great style. The Fairy, when she was gone, returned to Fairyland."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Page"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:onClick="goToPage5"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Page"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:onClick="goToPage3"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
